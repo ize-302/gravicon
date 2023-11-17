@@ -1,18 +1,14 @@
 {
-  "name": "web favicon plugin",
+  "name": "Gravicon",
   "id": "1307231621622379453",
   "api": "1.0.0",
   "main": "code.js",
   "capabilities": [],
   "enableProposedApi": false,
-  "editorType": [
-    "figma",
-    "figjam"
-  ],
+  "editorType": ["figma"],
   "ui": "ui.html",
   "networkAccess": {
-    "allowedDomains": [
-      "none"
-    ]
+    "allowedDomains": ["*"],
+    "reasoning": "To be able to fetch favicons from the submitted url"
   }
 }
