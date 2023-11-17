@@ -15,3 +15,8 @@
 Demo:
   <img src="./demo.gif" alt="Logo" >
 </div>
+
+<p align="center">
+<a href="https://www.figma.com/community/plugin/1307231621622379453
+">Install Gravicon plugin</a>
+</p>
