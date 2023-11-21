@@ -6,6 +6,7 @@ figma.ui.onmessage = async (domain) => {
       figma.createImageAsync(json.data).then(async (image: Image) => {
         // Create a rectangle that's the same dimensions as the image.
         const node = figma.createRectangle();
+        node.name = domain;
         const { width, height } = await image.getSizeAsync();
         node.resize(width, height);
 
